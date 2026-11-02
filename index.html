@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Dance Event</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4a154b, #6b1157);
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        @media(max-width: 600px) {
+            .details-grid { grid-template-columns: 1fr; }
+        }
+        .detail-item h3 {
+            margin: 0 0 0.5rem 0;
+            color: #4a154b;
+        }
+        .btn {
+            display: inline-block;
+            background: #4a154b;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btn:hover {
+            background: #6b1157;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>You're Invited!</h1>
+        <p>Join us for an evening of fellowship, music, and dancing</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About The Event</h2>
+            <p>We are excited to welcome everyone in our community to our upcoming Church Dance! This is a family-friendly event open to all ages. Come enjoy great music, light refreshments, and wonderful company as we celebrate together.</p>
+        </div>
+
+        <div class="card">
+            <h2>Event Details</h2>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <h3>📅 Date & Time</h3>
+                    <p><strong>[Insert Date Here]</strong><br>6:00 PM - 9:00 PM</p>
+                </div>
+                <div class="detail-item">
+                    <h3>📍 Location</h3>
+                    <p><strong>[Church Name] Fellowship Hall</strong><br>[Insert Street Address]<br>[City, State, Zip]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <h2>Let Us Know You're Coming</h2>
+            <p>Admission is completely free, but please RSVP so we can get an accurate head count for refreshments!</p>
+            <p><a href="mailto:yourchurch@email.com?subject=RSVP%20for%20Church%20Dance" class="btn">RSVP via Email</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 [Church Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
